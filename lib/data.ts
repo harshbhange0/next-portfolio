@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import BlogPng from "@/public/blogapp.png";
 import payts from "@/public/payts.png";
 import pageapp from "@/public/pageapp.png";
+import portfolio from "@/public/portfolio.png";
 
 export const links = [
   {
@@ -109,13 +110,20 @@ export const projectsData = [
     liveUrl: "https://main--paytsclient.netlify.app/",
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    title: "Paginate",
+    description: "Simple Paginate React App",
     tags: ["React", "Tailwind", "react-paginate"],
     imageUrl: pageapp,
     githubUrl: "https://github.com/harshbhange0/react-pagination",
     liveUrl: "https://react-pagination-app-harshbhange0.netlify.app/page=1",
+  },
+  {
+    title: "Portfolio",
+    description: "Simple PortFolio with animations",
+    tags: ["React", "NextJs", "Tailwind", "framer-motion"],
+    imageUrl: portfolio,
+    githubUrl: "hhttps://github.com/harshbhange0/next-portfolio",
+    liveUrl: "https://next-portfolio-eight-murex.vercel.app/",
   },
 ] as const;
 
