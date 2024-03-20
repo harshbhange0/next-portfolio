@@ -76,12 +76,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Blog app",
     description:
       "I build a full-stack developer  project, Users can create blog, update blog, delete blog and view blog .",
     tags: [
       "React",
-      "Next.js",
       "postgresSQl",
       "Tailwind",
       "Prisma",
