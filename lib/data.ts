@@ -6,6 +6,7 @@ import BlogPng from "@/public/blogapp.png";
 import payts from "@/public/payts.png";
 import pageapp from "@/public/pageapp.png";
 import portfolio from "@/public/portfolio.png";
+import StickNotes from "@/public/sticky-notes.png";
 
 export const links = [
   {
@@ -75,6 +76,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Sticky Notes",
+    description: "google Keep Like Clone ",
+    tags: ["React", "postgresSQl", "Tailwind", "Prisma", "NextJS", "Next Auth"],
+    imageUrl: StickNotes,
+    githubUrl: "https://github.com/harshbhange0/sticky-notes",
+    liveUrl: "https://sticky-notes-h0dev.vercel.app/",
+  },
   {
     title: "Blog app",
     description:
